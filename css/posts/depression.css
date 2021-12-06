@@ -1,0 +1,112 @@
+header {
+    background-color: #000;
+    background-image: url("/images/posts/depression/header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgba(119, 119, 119, 0.6)
+}
+
+@media only screen and (min-width: 30em) {
+    .title {
+        font-size: 8rem !important
+    }
+}
+
+a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid #000;
+    transition: 1s all;
+    padding-bottom: 2px
+}
+
+a:hover {
+    color: #000;
+    border-color: #ccc
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFA3D7;
+    border: 0;
+    transition: .2s all
+}
+
+footer a:hover {
+    color: #fff
+}
+
+footer .color-swap a {
+    color: #D5008F
+}
+
+footer .color-swap a:hover {
+    color: #fff
+}
+
+@media only screen and (min-width: 30em) {
+    .ml-auto {
+        margin-left: auto;
+        margin-right: 4rem
+    }
+    .mr-auto {
+        margin-left: 4rem;
+        margin-right: auto
+    }
+}
+
+blockquote {
+    margin: 2rem 0;
+    padding: 2rem;
+    display: inline-block;
+    background-color: #000;
+    font-style: italic
+}
+
+hr {
+    margin: 3rem auto;
+    border: 0;
+    height: 1px;
+    width: 60%;
+    background-color: #001B44
+}
+
+.vh-130 {
+    height: 130vh
+}
+
+.section {
+    padding: 10rem 0
+}
+
+@media only screen and (min-width: 30em) {
+    .section {
+        padding: 20rem 0
+    }
+}
+
+.brains-kill {
+    background-image: linear-gradient(to bottom, #111 0%, rgba(17, 17, 17, 0.8) 50%, rgba(17, 17, 17, 0) 90%), url("/images/posts/depression/brains-kill.jpg");
+    background-size: cover
+}
+
+.breaking-points {
+    background-image: linear-gradient(to bottom, #333 0%, rgba(51, 51, 51, 0.8) 50%, rgba(51, 51, 51, 0) 90%), url("/images/posts/depression/breaking-points.jpg");
+    background-size: cover
+}
+
+.to-therapy {
+    background-image: linear-gradient(to bottom, #777 0%, rgba(119, 119, 119, 0.8) 50%, rgba(119, 119, 119, 0) 90%), url("/images/posts/depression/to-therapy.jpg");
+    background-size: cover
+}
+
+.drugs {
+    background-image: linear-gradient(to bottom, #f4f4f4 0%, rgba(244, 244, 244, 0.8) 50%, rgba(244, 244, 244, 0) 90%), url("/images/posts/depression/drugs.jpg");
+    background-size: cover
+}
+
+.happy {
+    background-image: linear-gradient(to bottom, #cdecff 0%, rgba(205, 236, 255, 0.4) 30%, rgba(205, 236, 255, 0) 90%), url("/images/posts/depression/happy.jpg");
+    background-size: cover
+}
